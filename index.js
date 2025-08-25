@@ -1,6 +1,7 @@
 //Calculado de Partidas Rankeadas//
 
 let saldoVitorias = quantidadeVitorias (200, 5)
+let nomeHeroi = "Red*Bug"
 let nivel = ""
 
 function quantidadeVitorias (vitorias, derrotas) {
@@ -37,4 +38,4 @@ switch (true) {
     nivel = "Imortal"
     break
 }
-console.log(`O Herói tem saldo de ${saldoVitorias} vitórias e está no nível ${nivel}.`);
+console.log(`O Herói ${nomeHeroi} tem saldo de ${saldoVitorias} vitórias e está no nível ${nivel}.`);
